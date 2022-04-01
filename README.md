@@ -1,6 +1,6 @@
 # online-tolls
 
-This repository contains code associated with the paper [Online Learning for Traffic Routing under Unknown Preferences] by Devansh Jalota, Karthik Gopalakrishhah, Navid Azizan, Ramesh Johari, and Marco Pavone.
+This repository contains code associated with the paper [Online Learning for Traffic Routing under Unknown Preferences](http://arxiv.org/abs/2203.17150) by Devansh Jalota, Karthik Gopalakrishhah, Navid Azizan, Ramesh Johari, and Marco Pavone.
 
 ## Data sources ##
 The traffic network, user flows, and road capacities are obtained from the [TNTP dataset](https://github.com/bstabler/TransportationNetworks)
