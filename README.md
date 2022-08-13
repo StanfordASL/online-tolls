@@ -12,7 +12,12 @@ This code uses the following packages
 - [Geopandas](https://geopandas.org/en/stable/) for manipulating geospatial data
 - [Contextily](https://contextily.readthedocs.io/en/latest/) for loading basemap for plots
 
+See `requirements.txt` for a complete list
+
 ## Running the code ##
 
 - `main.py` to run simulations
 - `plots.py` to generate the plots 
+- `bpr-approximation/` contins the experiments on congetion games (Appendix G)
+    - `bpr-approximation/` runs the simulations
+    - `bpr-approximation/plots_bpr.py` generates the plots
