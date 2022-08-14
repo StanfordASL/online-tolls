@@ -3,7 +3,7 @@
 This repository contains code associated with the paper [Online Learning for Traffic Routing under Unknown Preferences](http://arxiv.org/abs/2203.17150) by Devansh Jalota, Karthik Gopalakrishhah, Navid Azizan, Ramesh Johari, and Marco Pavone.
 
 ## Data sources ##
-The traffic network, user flows, and road capacities are obtained from the [TNTP dataset](https://github.com/bstabler/TransportationNetworks)
+The traffic network, user flows, and road capacities are obtained from the [TNTP dataset](https://github.com/bstabler/TransportationNetworks). The Sioux Falls dataset is present in the `Locations` folder. Test networks for the congestion games section (Appendix G) is present in the `bpr-approximation/Locations` folder
 
 ## Requirements ##
 
@@ -19,5 +19,6 @@ See `requirements.txt` for a complete list
 - `main.py` to run simulations
 - `plots.py` to generate the plots 
 - `bpr-approximation/` contins the experiments on congetion games (Appendix G)
-    - `bpr-approximation/` runs the simulations
+    - `bpr-approximation/main.py` runs the simulations
     - `bpr-approximation/plots_bpr.py` generates the plots
+    - `bpr_approximation.ipynb` generates plots to validate the piecewise-lienar approximation
