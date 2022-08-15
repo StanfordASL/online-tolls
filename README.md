@@ -1,6 +1,6 @@
 # online-tolls
 
-This repository contains code associated with the paper [Online Learning for Traffic Routing under Unknown Preferences](http://arxiv.org/abs/2203.17150) by Devansh Jalota, Karthik Gopalakrishnan, Navid Azizan, Ramesh Johari, and Marco Pavone.
+This repository contains code associated with a submission to [AAAI 2023](https://aaai.org/Conferences/AAAI-23/). 
 
 ## Data sources ##
 The traffic network, user flows, and road capacities are obtained from the [TNTP dataset](https://github.com/bstabler/TransportationNetworks). The Sioux Falls dataset is present in the `Locations` folder. Test networks for the congestion games section (Appendix G) is present in the `bpr-approximation/Locations` folder
