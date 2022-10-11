@@ -1,6 +1,6 @@
 # online-tolls
 
-This repository contains code associated with a submission to [AAAI 2023](https://aaai.org/Conferences/AAAI-23/). 
+This repository contains code associated with a submission to [AISTATS 2023](http://aistats.org/aistats2023/). 
 
 ## Data sources ##
 The traffic network, user flows, and road capacities are obtained from the [TNTP dataset](https://github.com/bstabler/TransportationNetworks). The Sioux Falls dataset is present in the [Locations](Locations) folder. Test networks for the congestion games section (Appendix G) is present in the [bpr-approximation/Locations](bpr-approximation/Locations) folder
