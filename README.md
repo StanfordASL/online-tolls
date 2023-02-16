@@ -1,9 +1,9 @@
 # online-tolls
 
-This repository contains code associated with the paper [Online Learning for Traffic Routing under Unknown Preferences](http://arxiv.org/abs/2203.17150) by Devansh Jalota, Karthik Gopalakrishhah, Navid Azizan, Ramesh Johari, and Marco Pavone.
+This repository contains code associated with a submission to [AISTATS 2023](http://aistats.org/aistats2023/). 
 
 ## Data sources ##
-The traffic network, user flows, and road capacities are obtained from the [TNTP dataset](https://github.com/bstabler/TransportationNetworks)
+The traffic network, user flows, and road capacities are obtained from the [TNTP dataset](https://github.com/bstabler/TransportationNetworks). The Sioux Falls dataset is present in the [Locations](Locations) folder. Test networks for the congestion games section (Appendix G) is present in the [bpr-approximation/Locations](bpr-approximation/Locations) folder
 
 ## Requirements ##
 
@@ -12,12 +12,13 @@ This code uses the following packages
 - [Geopandas](https://geopandas.org/en/stable/) for manipulating geospatial data
 - [Contextily](https://contextily.readthedocs.io/en/latest/) for loading basemap for plots
 
-See `requirements.txt` for a complete list
+See [requirements.txt](requirements.txt) for a complete list
 
 ## Running the code ##
 
-- `main.py` to run simulations
-- `plots.py` to generate the plots 
-- `bpr-approximation/` contins the experiments on congetion games (Appendix G)
-    - `bpr-approximation/` runs the simulations
-    - `bpr-approximation/plots_bpr.py` generates the plots
+- [main.py](main.py) to run simulations
+- [plots.py](plots.py) to generate the plots 
+- [bpr-approximation/](bpr-approximation/) contins the experiments on congetion games (Appendix G)
+    - [bpr-approximation/main.py](bpr-approximation/main.py) runs the simulations
+    - [bpr-approximation/plots_bpr.py](bpr-approximation/plots_bpr.py) generates the plots
+    - [bpr-approximation/bpr_approximation.ipynb](bpr-approximation/bpr_approximation.ipynb) generates plots to validate the piecewise-lienar approximation
